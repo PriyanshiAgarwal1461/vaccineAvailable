@@ -58,7 +58,7 @@ export const VaccineData = () => {
                 <button onClick={validateDate} >Go</button>
             </div>
             <div>
-                {message !== null ? <p>{message}</p> :
+                {message !== null ? <div style={{textAlign:"center"}}>{message}</div> :
                     (<>
 
                         {data?.length !== 0 ?
